@@ -1,0 +1,17 @@
+body {
+  background-color: #F9F9F9;
+}
+
+h1, h2 {
+  font-family: Arial, "Times New Roman";
+}
+
+p {
+  font-family: "Helvetica", "Times New Roman";
+}
+
+#profile-picture {
+  max-width: 150px;
+  max-height: 150px;
+  border: 5px solid #000000;
+}
