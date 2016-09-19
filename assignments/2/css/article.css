@@ -1,6 +1,29 @@
+body {
+  line-height: 1.5;
+  background-color: #F9F9F9;
+  font-family: Verdana, "Times New Roman";
+  color: #252525;
+}
+
 article {
-    width: 960px;
+    width: 550px;
     margin: auto;
+}
+
+#cover {
+  width: 100%;
+}
+
+article {
+  font-size: 18px;
+}
+
+header {
+  border-bottom: 1px solid #444444;
+}
+
+header h1 {
+  margin-bottom: 0;
 }
 
 h1 {
