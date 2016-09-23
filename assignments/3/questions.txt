@@ -1,8 +1,8 @@
 - What is the difference between position: absolute and position: fixed?
 
-Absolute elements are positioned relative to the first element in its parent-tree with its position set to be relative. The element is taken out of the normal flow of the document and it stops affecting and pushing other elements. This means the element may even overlap with other elements.
+Absolute elements are positioned relative to the first element in its parent-tree with its position set to not be static, or the document root if such a parent element doesn't exist. The element is taken out of the normal flow of the document and it stops affecting and pushing other elements. This means the element may even overlap with other elements.
 
-Fixed elements are positioned relative to the browser view port. Like the absolutely positioned elements, they're also taken out of the normal document flow and it stops affecting other elements. However, when you scroll the page, the element will stay fixed (as it is positioned relative to the viewport and not another element), unlike absolutely positioned elements.
+Fixed elements are positioned relative to the browser view port. Like the absolutely positioned elements, they're also taken out of the normal document flow and it stops affecting the flow of other elements. However, when you scroll the page, the element will stay fixed (as it is positioned relative to the viewport and not another element), unlike absolutely positioned elements.
 
 - With CSS3, how do we access the third element within another element?
 
