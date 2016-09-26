@@ -1,0 +1,13 @@
+- Why do mobile phones usually ignore auto play on video elements?
+
+To conserve bandwidth; most people have data caps on their phones.
+
+- What will the CSS snippet at the end of this section do if the visitor is browsing on a device with 320 x 568 resolution?
+
+The CSS snippet will not do anything, because the device width needs to be greater than 768px and lesser than 1024px for the snippet to trigger.
+
+- Mention some of the advantages of having a single responsive website instead of dedicated versions like m.til.no for mobile and til.no for desktop?
+
+* Easy to remove clutter and free up space for smaller, mobile devices.
+* You don't need to redirect the user to another webpage.
+* Server-side validation using things like user-agents can be very hard, the CSS based method with responsive websites is fairly failsafe.
