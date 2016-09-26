@@ -39,3 +39,17 @@ p {
   font-size: 16px;
   line-height: 1.5;
 }
+
+/*todo:hacky or not hacky???????*/
+@media screen and (max-width: 940px) {
+  #screen video {
+    display: none;
+  }
+
+  #title {
+    position: static;
+    transform: none;
+    width: 50%;
+    margin: 1em auto;
+  }
+}
