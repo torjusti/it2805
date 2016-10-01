@@ -39,6 +39,16 @@ p {
   line-height: 1.5;
 }
 
+/**
+ * Her har jeg valgt å bruke max-width.
+ * I oppgaven refereres det til resolution width. På grunn av dette, og siden
+ * max-device-width brukes senere i oppgaven, ble jeg litt usikker på om
+ * det under skal brukes max-width eller max-device-width.
+ * Hvis vi bruker max-width vil vi sjekke mot den nåværende browser-størrelsen.
+ * Hvis vi bruker max-device-width vil vi sjekke mot størrelsen på selve skjermen. Dette er altså en konstant.
+ * En av grunnene til av jeg til slutt valgte max-width over max-device-width er at max-device-width
+ * blir deprecated i Media Queries Level 4 (https://developer.mozilla.org/en-US/docs/Web/CSS/@media#Media_features)
+ */
 @media screen and (max-width: 940px) {
   #screen video {
     display: none;
