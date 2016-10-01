@@ -48,6 +48,7 @@ p {
  * Hvis vi bruker max-device-width vil vi sjekke mot størrelsen på selve skjermen. Dette er altså en konstant.
  * En av grunnene til av jeg til slutt valgte max-width over max-device-width er at max-device-width
  * blir deprecated i Media Queries Level 4 (https://developer.mozilla.org/en-US/docs/Web/CSS/@media#Media_features)
+ * Håper det er innafor.
  */
 @media screen and (max-width: 940px) {
   #screen video {
@@ -59,11 +60,5 @@ p {
     transform: none;
     width: 50%;
     margin: 1em auto;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  body, *, body * {
-    color: blue !important;
   }
 }
