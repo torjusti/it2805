@@ -29,7 +29,6 @@ video {
 }
 
 article {
-  /*todo:hacky or not hacky???????*/
   margin-right: 20%;
   margin-left: 20%;
 }
@@ -40,7 +39,6 @@ p {
   line-height: 1.5;
 }
 
-/*todo:hacky or not hacky???????*/
 @media screen and (max-width: 940px) {
   #screen video {
     display: none;
