@@ -11,3 +11,4 @@ The CSS snippet will not do anything, because the device width needs to be great
 * Easy to remove clutter and free up space for smaller, mobile devices.
 * You don't need to redirect the user to another webpage.
 * Server-side validation using things like user-agents can be very hard, the CSS based method with responsive websites is fairly failsafe.
+* There's just one website to maintain. If you have an entire separate website for mobile users, that's a lot of extra development work.
