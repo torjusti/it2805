@@ -12,7 +12,7 @@ body {
   position: relative;
 }
 
-video {
+video, #mobil-bilde {
   height: auto;
   width: 100%;
 }
@@ -39,6 +39,10 @@ p {
   line-height: 1.5;
 }
 
+#mobil-bilde {
+  display: none;
+}
+
 /**
  * Her har jeg valgt å bruke max-width.
  * I oppgaven refereres det til resolution width. På grunn av dette, og siden
@@ -50,15 +54,12 @@ p {
  * blir deprecated i Media Queries Level 4 (https://developer.mozilla.org/en-US/docs/Web/CSS/@media#Media_features)
  * Håper det er innafor.
  */
-@media screen and (max-width: 940px) {
+@media screen and (min-width: 940px) {
   #screen video {
     display: none;
   }
 
-  #title {
-    position: static;
-    transform: none;
-    width: 50%;
-    margin: 1em auto;
+  #mobil-bilde {
+    display: block;
   }
 }
